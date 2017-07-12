@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Lee Knowlton" />
+        <meta name="description" content="The NYSL Rules" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <title>NYSL</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Material Design Lite -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-orange.min.css">
+        <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+        <!--Fin Material Design Lite-->
+        <link rel="apple-touch-icon" href="img/nysl_logo.png">
+        <link href="style/normalise.css" rel="stylesheet" type="text/css"/>
+        <link href="style/style.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="nysltitle" href="#home">NYSL</a>
+
+                <button id="sign-in-button" class="signin"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Sign In</button>
+
+                <button id="sign-out-button" class="signout"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Sign out</button>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a id="home-content" href="#home">Home</a></li>
+                    <li><a id="about-content" href="#about">About NYSL</a></li>
+                    <li><a id="registration-content" href="#registration">Registration</a></li>
+                    <li><a id="gameinfo-content" href="#gameinfo">Game Information</a></li>
+                    <!--<li><a id="login-content" href="#login">Login</a></li>-->
+                    <li><a id="message-content" href="#message">Message</a></li>
+                    <!--<li><a id="register-content" href="#register">Register</a></li>-->
+                    <li><a id="maps-content" href="#maps">Locations</a></li>
+                    <li><a id="rules-content" href="#rules">Rules</a></li>
+                    <li><a id="contact-content" href="#contact">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+    <body>
+
+        <div class="" id="home">
+            <div class="title">
+                <h2> Upcoming Events</h2>
+            </div>
+
+            <div id="upcoming">
+                <h2>August 4</h2>
+                <p class="indent">NYSL Fundraiser</p>
+                <div class="divider"></div>
+
+                <h2>August 16</h2>
+                <p class="indent">Season Kick-off: Meet the Teams</p>
+                <div class="divider"></div>
+
+                <h2>September 1</h2>
+                <p class="indent"> First Game of the Season (Check Game Schedule for details)</p>
+                <div class="divider"></div>
+
+            </div>
+        </div><!-- fin home-->
+
+        <div id="about">
+            <div class="title">
+                <h2> About NYSL</h2>
+            </div>
+            <div class="container ">
+                <div class="panel-group" id="faqAccordion">
+                    <div class="panel  ">
+                        <div class="panel-heading accordion-toggle question-toggle collapsed backaccordion" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+                            <h4 class="panel-title">
+                                <a href="#" class="ing">Mission</a>
+                            </h4>
+
+                        </div>
+                        <div id="question0" class="panel-collapse collapse" style="height: 0px;">
+                            <div class="panel-body">
+                                <p class="indent">To support young athletes living in Chicago's northside neighborhoods, who have an interest in learning and playing soccer, with opportunities to learn and practice skills related to the game of soccer, specifically those skills around team cooperation and good sportsmanship.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading accordion-toggle collapsed question-toggle backaccordion" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+                            <h4 class="panel-title">
+                                <a href="#" class="ing">Vision</a>
+                            </h4>
+
+                        </div>
+                        <div id="question1" class="panel-collapse collapse" style="height: 0px;">
+                            <div class="panel-body">
+                                <p class="indent">The Northside Youth Soccer League aspires to develop strong, well-rounded, and mindful athletes through the building of character, self-discipline, and leadership.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <div class="panel-heading accordion-toggle collapsed question-toggle backaccordion" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+                            <h4 class="panel-title">
+                                <a href="#" class="ing">General Information</a>
+                            </h4>
+
+                        </div>
+                        <div id="question2" class="panel-collapse collapse" style="height: 0px;">
+                            <div class="panel-body">
+                                <p class="indent">The Northside Youth Soccer League was established in 1996 to provide athletes residing in Chicago's northside neighborhoods an environment in which to learn and play soccer. To be a member of NYSL, you must be between the ages of 4 - 12 and reside in a Chicago northside neighborhood. NYSL is run by a small full-time staff, and relies on the generous volunteer time of parents and previous league members.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/panel-group-->
+            </div>
+        </div>
+        <div id="registration">
+            <div class="title">
+                <h2> Registration</h2>
+            </div>
+            <form method="get" action="show_data.html"> 
+                <div class="stylized">
+                    <label for="first_name">Player's First Name:</label>
+                    <input type="text" name="first_name" id="first_name"/>
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name"/>
+                    <label for="street_address">Street Address:</label>
+                    <input type="text" name="street_address" id="street_address"/>
+                    <label for="city">City:</label>
+                    <input type="text" name="city" id="city"/>
+                    <label for="zip">Zip Code:</label>
+                    <input type="text" name="zip" id="zip"/>
+                    <label for="birth_date">Birth Date (mm/dd/yyyy):</label>
+                    <input type="text" name="birth_date" id="birth_date"/>
+                    <label for="parent_guardian">Parent/Guardian Name: </label>
+                    <input type="text" name="parent_guardian" id="parent_guardian"/>
+                    <label for="contact_phone">Contact Phone:</label>
+                    <input type="text" name="contact_phone" id="contact_phone"/>
+                    <label for="contact_email">Contact Email:</label>
+                    <input type="text" name="contact_email" id="contact_email"/>
+                </div>
+
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <div class="line">
+                        <div>
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="female" value="female"/>
+                        </div>
+                        <div>
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" id="male" value="male"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Grade:</legend>
+                    <div class="line">
+                        <div>
+                            <label for="pre_school">Pre-School</label>
+                            <input type="radio" name="grade" id="pre_school" value="pre_school"/>
+                        </div>
+                        <div>
+                            <label for="1st">1st</label>
+                            <input type="radio" name="grade" id="1st" value="1st"/>
+                        </div>
+                        <div>
+                            <label for="2nd">2nd</label>
+                            <input type="radio" name="grade" id="2nd" value="2nd"/>
+                        </div>
+                        <div>
+                            <label for="3rd">3rd</label>
+                            <input type="radio" name="grade" id="3rd" value="3rd"/>
+                        </div>
+                        <div>
+                            <label for="4th">4th</label>
+                            <input type="radio" name="grade" id="4th" value="4th"/>
+                        </div>
+                        <div>
+                            <label for="5th">5th</label>
+                            <input type="radio" name="grade" id="5th" value="5th"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Which elementary schools do you live near?</legend>
+                    <div >
+                        <label for="school_1" class="impinfo">First Closest School:</label>
+                        <select name="school_1" id="school_1">
+                            <option value="katzenmaier">AJ Katzenmaier</option>
+                            <option value="greenbay">Greenbay</option>
+                            <option value="yeager">Howard A Yeager</option>
+                            <option value="hart">Marjorie P Hart</option>
+                            <option value="north">North Elementary</option>
+                            <option value="south">South Elementary</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="school_2" class="impinfo">Second Closest School:</label>
+                        <select name="school_2" id="school_2">
+                            <option value="katzenmaier">AJ Katzenmaier</option>
+                            <option value="greenbay">Greenbay</option>
+                            <option value="yeager">Howard A Yeager</option>
+                            <option value="hart">Marjorie P Hart</option>
+                            <option value="north">North Elementary</option>
+                            <option value="south">South Elementary</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What position(s) do you normally play? <span class="note">(check all that apply)</span></legend>
+                    <div class="line">
+                        <div>
+                            <label for="n_forward">Forward</label>
+                            <input type="checkbox" name="normal_position" id="n_forward" value="n_forward"/>
+                        </div>
+                        <div>
+                            <label for="n_defense">Defense</label>
+                            <input type="checkbox" name="normal_position" id="n_defense" value="n_defense"/>
+                        </div>
+                        <div>
+                            <label for="n_midfield">Midfield</label>
+                            <input type="checkbox" name="normal_position" id="n_midfield" value="n_midfield"/>
+                        </div>
+                        <div>
+                            <label for="n_goalkeeper">Goalkeeper</label>
+                            <input type="checkbox" name="normal_position" id="n_goalkeeper" value="n_goalkeeper"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What position(s) do you want to play? <span class="note">(check all that apply)</span></legend>
+                    <div class="line">
+                        <div>
+                            <label for="w_forward">Forward</label>
+                            <input type="checkbox" name="want_position" id="w_forward" value="w_forward"/>
+                        </div>
+                        <div>
+                            <label for="w_defense">Defense</label>
+                            <input type="checkbox" name="want_position" id="w_defense" value="w_defense"/>
+                        </div>
+                        <div>
+                            <label for="w_midfield">Midfield</label>
+                            <input type="checkbox" name="want_position" id="w_midfield" value="w_midfield"/>
+                        </div>
+                        <div>
+                            <label for="w_goalkeeper">Goalkeeper</label>
+                            <input type="checkbox" name="want_position" id="w_goalkeeper" value="w_goalkeeper"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <label for="uniform" class="impinfo">Already Have a Uniform</label>
+                <input type="checkbox" name="uniform" id="uniform"/>
+
+                <fieldset>
+                    <legend>Jersey Size:</legend>
+                    <div class="line">
+                        <div>
+                            <label for="j_y_small">Youth Small</label>
+                            <input type="radio" name="jersey_size" id="j_y_small" value="j_y_small"/>
+                        </div>
+                        <div>
+                            <label for="j_y_medium">Youth Medium</label>
+                            <input type="radio" name="jersey_size" id="j_y_medium" value="j_y_medium"/>
+                        </div>
+                        <div>
+                            <label for="j_y_large">Youth Large</label>
+                            <input type="radio" name="jersey_size" id="j_y_large" value="j_y_large"/>
+                        </div>
+                        <div>
+                            <label for="j_small">Small</label>
+                            <input type="radio" name="jersey_size" id="j_small" value="j_small"/>
+                        </div>
+                        <div>
+                            <label for="j_medium">Medium</label>
+                            <input type="radio" name="jersey_size" id="j_medium" value="j_medium"/>
+                        </div>
+                        <div>
+                            <label for="j_large">Large</label>
+                            <input type="radio" name="jersey_size" id="j_large" value="j_large"/>
+                        </div>
+                        <div>
+                            <label for="j_x_large">Extra-Large</label>
+                            <input type="radio" name="jersey_size" id="j_x_large" value="j_x_large"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Shorts Size:</legend>
+                    <div class="line"> 
+                        <div>                      
+                            <label for="s_y_small">Youth Small</label>
+                            <input type="radio" name="shorts_size" id="s_y_small" value="s_y_small"/>
+                        </div>
+                        <div>
+                            <label for="s_y_medium">Youth Medium</label>
+                            <input type="radio" name="shorts_size" id="s_y_medium" value="s_y_medium"/>
+                        </div>
+                        <div>
+                            <label for="s_y_large">Youth Large</label>
+                            <input type="radio" name="shorts_size" id="s_y_large" value="s_y_large"/>
+                        </div>
+                        <div>
+                            <label for="s_small">Small</label>
+                            <input type="radio" name="shorts_size" id="s_small" value="s_small"/>
+                        </div>
+                        <div>
+                            <label for="s_medium">Medium</label>
+                            <input type="radio" name="shorts_size" id="s_medium" value="s_medium"/>
+                        </div>
+                        <div>
+                            <label for="s_large">Large</label>
+                            <input type="radio" name="shorts_size" id="s_large" value="s_large"/>
+                        </div>
+                        <div>
+                            <label for="s_x_large">Extra-Large</label>
+                            <input type="radio" name="shorts_size" id="s_x_large" value="s_x_large"/>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <h3>Permission to Play</h3>
+                <div>
+                    <p>
+                        I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the "League" accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.       
+                    </p>
+                    <p>
+                        By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                </div>
+                <label for="signature">Parent/Guardian Signature:</label>
+                <input type="text" name="signature" id="signature"/>
+                <label for="sig_date">Date: (mm/dd/yyyy)</label>
+                <input type="text" name="sig_date" id="sig_date"/>
+
+                <input type="submit" name="submit" value="Send">
+
+            </form>
+        </div>
+        <div id="gameinfo">
+            <div class="title">
+                <h2> Game Information</h2> 
+            </div>
+            <h2>Fall Schedule</h2>
+
+
+            <p class="announcement">*All games take place on Saturday</p>
+            <p class="announcement">Select The Date</p>
+
+            <!--
+<div class="games">
+<button type="button" class="btn btn-default navbar-btn pull-left">
+<span class="glyphicon glyphicon-chevron-left"></span>
+<p>Previous Game<p>
+</button>
+<button type="button" class="btn btn-default navbar-btn pull-left">
+<span class="glyphicon glyphicon-chevron-right"></span>
+<p>Next Game<p>
+</button>
+
+</div>-->
+            <div id="vertical">
+                <div class="date">  
+
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">9/01
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">9/08
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">9/15
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">9/22
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">9/29
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">10/06
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">10/13
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">10/20
+                    </button>
+                    <button type="button" class="fechas btn btn-default navbar-btn pull-left">10/27
+                    </button>
+
+                </div>
+
+                <!--tabla con titulo y 2 row segun el dia elegido-->
+                <table class="table table-stripped table-bordered">
+                    <tr>
+                        <th class="col-xs-3">Teams</th>
+                        <th class="col-xs-3"><a href="#maps">Location</a></th>
+                        <th class="col-xs-3">Times</th>
+                        <th class="col-xs-3">Date</th>
+                    </tr>
+                    <tbody id="infotable">
+
+                    </tbody>
+
+                </table> 
+            </div> <!-- fin vertival-->
+            <div id="horizontal">
+                <div class="block">
+                    <div class="landscapeinfo">
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>AJ Katzenmaier Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>1829 Kennedy Dr, North Chicago, IL 60088</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/01</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U1 and U4</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>9:30a.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.781052061583!2d-87.86492878454477!3d42.32586847918918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1ses!2ses!4v1491552771653"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>Greenbay Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>2100 Green Bay Rd, North Chicago, IL 60064</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/01</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U3 and U2</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>1:00p.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.012507620658!2d-87.87110998454496!3d42.320931979189574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933c0fe7d7e7%3A0x9ec9da059cce8df1!2s2100+Green+Bay+Rd%2C+North+Chicago%2C+IL+60064%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1492189776409"></iframe>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>Howard A Yearger Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>W Belden Ave, Chicago, IL 60614</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/08</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U5 and U6</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>9:30a.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378811.0340834546!2d-88.03858497626263!3d42.119008845586116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1ses!2ses!4v1491860069177"></iframe>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>Marjorie P Hart Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>2625 N.Orchart St.Chicago, IL 60614</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/08</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U6 and U1</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>1:00p.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2886667565467!2d-87.6481646490827!3d41.92964807911616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1487689216985"></iframe>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>North Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>1409 N.Ogden Ave.Chicago, IL 60610</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/15</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U2 and U4</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>9:30a.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3364277716682!2d-87.64836374908352!3d41.907125979117936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af13a8945%3A0xb6ad1ec2b6f379ba!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1487689260136"></iframe>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>AJ Katzenmaier Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>1829 Kennedy Dr, North Chicago, IL 60088</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/15</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U3 and U5</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>1:00P.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.781052061583!2d-87.86492878454477!3d42.32586847918918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1ses!2ses!4v1491552771653"></iframe>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>South Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>2101 N.Fremont St.Chicago, IL 60614</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/22</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U1 and U3</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>9:30a.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7491368588494!2d-87.65355064908307!3d41.91975127911695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1487689336506"></iframe>
+                            </div>
+                        </div>
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>Howard A Yearger Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>W Belden Ave, Chicago, IL 60614</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/22</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U2 and U6</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>1:00P.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378811.0340834546!2d-88.03858497626263!3d42.119008845586116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1ses!2ses!4v1491860069177"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="inline">
+                            <div class="mapinfo">
+                                <h2>Greenbay Elementary:</h2>
+                                <div class="divider"></div>
+                                <p>2100 Green Bay Rd, North Chicago, IL 60064</p>
+                                <div class="textinfo">
+                                    <p class="bold">Date: </p>
+                                    <p>9/29</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Team: </p>
+                                    <p>U4 and U5</p>
+                                </div>
+                                <div class="textinfo">
+                                    <p class="bold">Time: </p>
+                                    <p>9:30a.m.</p>
+                                </div>
+                            </div>
+
+                            <div class="locationinfo">
+
+                                <iframe  class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.012507620658!2d-87.87110998454496!3d42.320931979189574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933c0fe7d7e7%3A0x9ec9da059cce8df1!2s2100+Green+Bay+Rd%2C+North+Chicago%2C+IL+60064%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1492189776409"></iframe>
+                            </div>
+                        </div>
+
+                    </div><!-- fin horizontal-->
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="text">
+                <p><strong>Facility Type:</strong> Outdoor</p>
+                <p><strong>Additional Information:</strong> If deemed necessary by NYSL, games may be shortened or cancelled due to extreme weather conditions.</p> 
+                <p><strong>Please direct all questions to:</strong> Michael Randall, League Coordinator</p>
+                <p><strong>Phone:</strong> (630) 690-8132</p>
+                <p><strong>Email:</strong> <a href="mailto:michael.randall@chisoccer.org">michael.randall@chisoccer.org</a></p>
+                <div class="center">
+                    <button type="button" class="btn btn-default navbar-btn"><a href="#maps">Check The Map
+                        </a></button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id=login>
+            <div class="title">
+                <h2> Sign In</h2> 
+            </div>
+            <div class="row">
+                <form role="form">
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
+                    </div>
+                    <div class="center">
+                        <button type="submit" form="form" value="Submit" id="loginButton" class="btn btn-lg btn-default">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--
+<div id="register">
+<div class="title">
+<h2>Create Your Account</h2>
+</div>
+<form>
+<div>
+<label for="username">Username</label>
+<input type="text" id="username" spellcheck="false" placeholder="username" />
+</div>
+<div>
+<label for="email">Email</label>
+<input type="text" id="email" spellcheck="false" placeholder="email address"/>
+</div>
+
+<div>
+<label for="password">Password</label>
+<input type="password" id="password" />
+</div>
+<div>
+<label for="password-again">Password Again</label>
+<input type="password" id="password-again" />
+</div>
+
+<div class="control-group">
+<label class="control-label" for="singlebutton"></label>
+<button type="submit" form="form" value="Submit">Submit</button>
+</div>
+</form>
+
+</div>-->
+
+        <div id="message">
+            <div class="title">
+                <h2>Team Note</h2>
+            </div>
+            <div id="chat">
+                <!-- Show the add post form -->
+                <div class="mdl-grid content" id="add-post">
+                    <div class="mdl-cell mdl-cell--12-col mdl-grid">
+
+                        <!-- Card containing the inputs to add a new messages -->
+                        <div class="mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--6-col-desktop">
+                            <div class="mdl-card__title mdl-color--green-600 mdl-color-text--white">
+                                <h2 class="mdl-card__title-text">New Post</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                                <form id="message-form" action="#">
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <input class="mdl-textfield__input" type="text" id="new-post-title">
+                                        <label class="mdl-textfield__label" for="new-post-title">Title...</label>
+                                    </div>
+                                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                        <textarea class="mdl-textfield__input" rows="3" id="new-post-message"></textarea>
+                                        <label class="mdl-textfield__label" for="new-post-message">Write your message...</label>
+                                    </div>
+                                    <button type="submit" class="btn-default mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Add post
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="backhistoric">
+
+                <!-- Show a list of recent posts -->
+                <div class="mdl-grid content" id="recent-posts-list">
+                    <div class="posts-container">
+                    </div>
+                </div>
+
+            </div><!--fin backhistoric-->
+        </div><!--fin #message-->
+
+
+        <div id="maps">
+            <div class="title">
+                <h2>Locations</h2>
+            </div> 
+
+            <h2>AJ Katzenmaier Elementary:</h2>
+            <div class="divider"></div>
+            <p id="demo">1829 Kennedy Dr, North Chicago, IL 60088</p>
+            <button class="btn btn-default navbar-btn" onclick="getLocation()">Go here</button>
+
+            <div id="mapholder"></div>
+
+
+
+
+
+
+
+            <!--
+<iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.781052061583!2d-87.86492878454477!3d42.32586847918918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1ses!2ses!4v1491552771653"></iframe>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!--
+
+<h2>Greenbay Elementary:</h2>
+<div class="divider"></div>
+<p>2100 Green Bay Rd, North Chicago, IL 60064</p>
+
+<iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.011012009334!2d-87.87105288454495!3d42.3209638791895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933bce5af881%3A0x740a7a7d548adce1!2sGreenbay+Elementary+School+(K-5)!5e0!3m2!1ses!2ses!4v1491859982068"></iframe>
+
+<h2>Howard A Yeager Elementary:</h2>
+
+<div class="divider"></div>
+<p>W Belden Ave, Chicago, IL 60614</p>
+
+<iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d378811.0340834546!2d-88.03858497626263!3d42.119008845586116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f852467%3A0xb6cb22b2f0358874!2sHoward+A+Yeager+Elementary!5e0!3m2!1ses!2ses!4v1491860069177"></iframe>
+
+<h2>Marjorie P Hart:</h2>
+
+<div class="divider"></div>
+<p>2625 N.Orchart St.Chicago, IL 60614</p>
+
+<iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2886667565467!2d-87.6481646490827!3d41.92964807911616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1487689216985"></iframe>
+
+<h2>North Elementary:</h2>
+
+<div class="divider"></div>
+<p>1409 N.Ogden Ave.Chicago, IL 60610</p>
+
+<iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3364277716682!2d-87.64836374908352!3d41.907125979117936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af13a8945%3A0xb6ad1ec2b6f379ba!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1487689260136"></iframe>
+
+<h2>South Elementary:</h2>
+
+<div class="divider"></div>
+<p>2101 N.Fremont St.Chicago, IL 60614</p> 
+
+
+<iframe class="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7491368588494!2d-87.65355064908307!3d41.91975127911695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+EE.+UU.!5e0!3m2!1ses!2ses!4v1487689336506"></iframe>
+</div>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div id="rules">
+                <div class="title">
+                    <h2> Rules of Play &amp; Policies</h2>
+                </div>
+                <div>
+                    <p>FIFA rules shall govern NYSL play except as modified herein.</p>
+                </div>
+                <h2>Sportsmanship</h2>
+                <ul>
+                    <li>The common interest that members of the Association share is to inspire youth to practice the ideals of sportsmanship and fair play. Any player, coach, team, parent, spectator, administrator or referee whose behavior detracts from this purpose is subject to disciplinary action regardless of technical soccer background, expertise, accomplishments or standing.</li>
+                </ul>
+
+                <h2>Fifa Field Regulations</h2>
+                <ol>
+                    <li><h3>Dimensions.</h3> FIFA Law 1 provides for flexible external field dimensions within a given maximum and minimum width and length. These dimensions should be adhered to for all fields used by teams under 12 and older. 
+                    </li>
+
+                    <li><h3>Competition Fields.</h3> Fields used within the competition program must be a minimum of 100 x 60 yards. Leagues, districts or associations participating in the state competition program that are unable to provide a field that meets these minimum requirements must advise the State Competition Board which will assign its Fields Committee to inspect the field and recommend to the Board whether or not a waiver of the minimum dimensions should be granted. Teams from leagues, districts or associations that are unable to provide an acceptable field may be required to play all their games away.
+                    </li>
+
+                    <li><h3>Fields Used By Young Age Groups.</h3>
+                        <ol type="a">
+                            <li>U-6 play on a field approximately 20 X 40 yards with no penalty areas. Fields for older age groups should be progressively larger.</li>
+                            <li>U-8 plays on a field 40-50 yards in length and 20-30 yards width.</li>
+                            <li>U-10 play on a field 70-80 yards in length and 40-50 yards in width.</li>
+                            <li>In addition, fields used by young age groups may have their internal dimensions and size of goal similarly modified.</li>
+                        </ol>
+                    </li>
+
+                    <li><h3>Team Bench Areas</h3>
+                        <ol type="a">
+                            <li>Recreation &amp; District Programs
+                                <ul>
+                                    <li>The decision for team/spectator placement on the field will be made by the governing body of that team. A team's bench area shall consist of that area at least one (1) yard away from the touchline and extending to twenty yards (20) both ways from the halfway line. In the event that field 2 conditions require team benches to be on the same side of the field, a team's bench area shall consist of that area two(2) yards away from the touchline and extending twenty yards one (1) way from the halfway line.</li>
+                                    <li>The home team has first choice as to where it wishes to locate its bench area. Coaches and substitutes are required to remain within their bench area during the game. Parents and spectators should occupy the same side of the field as the team they are supporting.</li>
+                                </ul>
+                            </li>
+                            <li>State Competition League Only
+                                <ul>
+                                    <li>Except where it is determined by the referee to be impractical, team bench areas shall be along the same touchline. Each team bench area shall be located two yards outside the touchline, beginning not closer than five yards from midfield and extending not further than twenty yards from midfield. The home team shall have the right to choose the location of its bench area. Coaches and substitutes must remain within their team's bench area during the game.</li>
+                                    <li>Parents and spectators must occupy the sideline opposite the team bench areas. Supporters of a team must assemble on the side of the midfield facing the team bench area of that team. There shall be a buffer zone extending ten yards on each side of the midfield that may not be occupied by parents or spectators. Match officials shall be empowered to enforce these provisions and may suspend or terminate games in the event that any team, coach, parent, or spectator declines to abide by requests from match officials to comply with these standards.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+
+                <h2>Equipment</h2>
+                <ul>
+                    <li>We will abide by and accept equipment standards as defined by FIFA, USSF and USYSA.</li>
+                </ul>
+
+                <h2>Number of Players</h2>
+                <ul>
+                    <li><h3>Team Size.</h3> Except as noted below, below, team rosters shall consist of not less than eleven nor more than eighteen players. A team must have at least seven (7) players present and able to play before referees are permitted to start a sanctioned game. No more than eleven (11) players per team may be on the field at any one time during the game.</li>
+                    <li><h3>Size of Age Group Teams.</h3> In order to give player's maximum opportunity to develop in the game of soccer, U-6 through U-1O play modified rules and size of roster as stated in United States Youth Soccer Association (USYSA) rules. It is strongly recommended that U-6 and U-8 play 4 v 4. UYSA shall not sanction games involving teams under 10 or younger unless such games are conducted with not more than eight (8) players per side. (National rule 4036 section 2)</li>
+                    <li>Recreational/Developmental players at other ages or where numbers in the playing area are low are strongly encouraged to play small-sided games on reduced field size.</li>
+                </ul>
+
+                <h2>Substitutions</h2>
+                <ul>
+                    <li>Teams may make an unlimited number of substitutions at the times indicated below. A player who has been replaced may re-enter the game as a substitute at a later time.
+                        <ol>
+                            <li>Prior to a throw-in your favor.</li>
+                            <li>Prior to a goalkick by either team.</li>
+                            <li>After a goal by either team.</li>
+                            <li>After an injury, by either team, when the referee stops play.</li>
+                            <li>At half time.</li>
+                            <li>When a player has been &quot;cautioned&quot;, only the player receiving &quot;caution&quot; may be substituted.</li>
+                        </ol>
+                    </li>
+                </ul>
+
+                <h2>Confiscated Player Passes</h2>
+                <ul>
+                    <li>Passes of any individual(s) ejected from any match shall be retained after the match by the referee. The pass of any individual who has received a third caution (yellow card) during a playing year shall be confiscated by the referee at the conclusion of the match in which the third caution was received. That player will be suspended from playing in the next game in which the offending participant would otherwise be eligible to participate. This process will continue so that for every third yellow card received during a playing year, the player will be suspended from playing in the next game (after the receipt of a third yellow card) for which the offending participate would otherwise be eligible to participate. The referee shall deliver all confiscated passes to the UYSA State Office within forty-eight (48) hours of the conclusion of the match.</li>
+                </ul>
+
+                <h2>All-Play</h2>
+                <ul>
+                    <li>All-play means that every recreation player on every team shall play at least fifty percent of each game. Coaches in the competition program are encouraged to play their players 50% of each game.
+                        <ul style="list-style-type:circle;">
+                            <li>A Coach shall be permitted to not play a player 50% of each game under special circumstances, e.g., unexcused absences from practice and/or games, ungentlemanly conduct at practice and/or games, and injuries.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>Player's Equipment</h2>
+                <ul>
+                    <li>Where the uniform colors of both teams are so similar that the referee orders a change, the designated home team must change to colors distinct from those of the opponent.</li>
+                </ul>
+
+                <h2>Mixed Teams</h2>
+                <ul>
+                    <li><h3>Girls Playing On Boys' Teams.</h3> Girls are eligible to play on boys'teams with parent/guardian permission.</li>
+                    <li><h3>Types of Teams.</h3> Teams with females only are Girls Teams. All others are Boys Teams.</li>
+                </ul>
+
+                <h2>Coaching from the Sidelines</h2>
+                <ul>
+                    <li>Coaching from the sidelines, i.e., giving direction to one's own team on points of strategy and position, is permitted provided that:
+                        <ol>
+                            <li>No mechanical, electrical or other devices are used to amplify the voice.</li>
+                            <li>The tone of voice is informative and not a harangue.</li>
+                            <li>The coaching takes place within the team's bench area.</li>
+                            <li>No coach, substitute, player or spectator is to make derogatory remarks or gestures to the referees, linesmen, players, substitutes or spectators.</li>
+                            <li>No coach, player, substitute or spectator is to use profanity or incite, in any manner, disruptive behavior of any kind.</li>
+                        </ol>
+                    </li>
+                </ul>
+
+                <h2>Game Termination</h2>
+                <ul>
+                    <li>Any game terminated after 15 minutes into the second half by the referee by reason of the elements, or by reason of grave disorder on the part of the coaches, players or spectators of a team that is losing at the point that the game is terminated, shall stand as a completed game. If a team is ahead and the game is called because of their actions they will lose the game 1-0. 
+                </ul>
+
+                <h2>Conditions of Replay of Games</h2>
+                <ul>
+                    <li>Any game which is required to be replayed as a result of any protest orappeal, shall be subject to the following conditions:
+                        <ol>
+                            <li>The game shall be replayed on the same field, as was the suspended or protested game, unless otherwise agreed by the coaches.</li>
+                            <li>Impartial referees shall be assigned to the new game.</li>
+                            <li>The PROTEST AND APPEALS COMMITTEE shall have the power to impose such additional conditions on the replay of the game, as it deems appropriate under the circumstances.</li>
+                        </ol>
+                    </li>
+                </ul>
+
+                <h2>Referee Responsibilities</h2> 
+                <ul>
+                    <li> The referee shall verify the identity of the players and coaches with his/her player pass. He shall collect the passes of those players and coaches who are to participate in the game. The referee must allow no player into the game for whom he/she has no pass.</li>
+                    <li>Upon completion of the game, the referee shall send his/her report to the UYSA offices within four (4) days, holidays excluded. If a coach or a player is ejected, the referee report form is required within forty-eight (48) hours along with the player/coach pass.</li>
+                    <li>A referee report form must be filed for every game played.</li>
+                    <li>Each team must determine whether or not referees are registered prior to the start of each game. Upon request, referees officiating at any game must willingly and without bias, show documentation regarding their certification level and registration standing with the USSF to coach, assistant coach, or team captain of teams participating in that game. Prior to the game a coach may decide to postpone the game if the referees do not produce the requested documentation. The game is to be replayed at a later date.</li>
+                    <li>Referees not complying with this section will be referred to the Disciplinary Committee.</li>
+                </ul>
+            </div>
+            <div id="contact">
+                <div class="title">
+                    <h2> Contact</h2>
+                </div>
+
+
+                <div class="center">
+                    <p>Please email us at <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a></p>
+                </div>
+                <div class="center">
+                    <p>We will reply to your email as soon as we can.</p>
+                </div>
+            </div>
+
+
+            <footer>
+
+            </footer>
+
+            <script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+            <script>
+                // Initialize Firebase
+                var config = {
+                    apiKey: "AIzaSyDUrH52qmZbFcqKtbWMmIvQpKXpgVLOems",
+                    authDomain: "nysl-ubiqum.firebaseapp.com",
+                    databaseURL: "https://nysl-ubiqum.firebaseio.com",
+                    projectId: "nysl-ubiqum",
+                    storageBucket: "nysl-ubiqum.appspot.com",
+                    messagingSenderId: "587962387104"
+                };
+                firebase.initializeApp(config);
+            </script>
+            <script src="scripts/datagame.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <script src="scripts/main.js"></script>
+            </body>
+        </html>
